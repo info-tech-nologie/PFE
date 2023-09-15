@@ -39,7 +39,7 @@ router.get('/api/posts/by-user/:userId', function *() {
 });
 
 router.get('/api/', function *() {
-  this.body = "API ready to receive requests";
+  this.body = "API prête à recevoir des demandes";
 });
 
 router.get('/', function *() {
