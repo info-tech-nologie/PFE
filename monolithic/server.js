@@ -43,7 +43,7 @@ router.get('/api/', function *() {
 });
 
 router.get('/', function *() {
-  this.body = "Ready to receive requests";
+  this.body = "<h1>page d'acceuil pour page monolithique</h1>";
 });
 
 app.use(router.routes());
